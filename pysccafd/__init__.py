@@ -13,7 +13,7 @@ from .mast_de import build_signature_matrix_mast
 from .mast_fast import hurdle_lr_pvalues_batch
 from .tmm import calc_norm_factors_tmm, scaling_tmm
 
-__version__ = "0.1.0"
+__version__ = "0.1.3"
 
 
 def __getattr__(name):

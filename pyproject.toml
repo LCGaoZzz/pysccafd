@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pysccafd"
-version = "0.1.2"
+version = "0.1.3"
 description = "Native Python port of the SCCAF-D deconvolution chain (Harmony -> SCCAF assessment -> MAST-style signature -> DWLS)"
 readme = "README.md"
 requires-python = ">=3.9"
