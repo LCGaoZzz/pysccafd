@@ -11,7 +11,7 @@ requires-python = ">=3.9"
 license = {text = "GPL-2.0-or-later"}
 authors = [{name = "LCGaoZzz"}]
 keywords = ["rna-seq", "deconvolution", "sccaf", "sccaf-d", "single-cell", "bioinformatics"]
-dependencies = ["numpy>=1.23", "pandas>=1.5", "scipy>=1.9", "anndata>=0.9", "scanpy>=1.9,<1.10", "harmonypy==0.0.9", "SCCAF==0.0.10", "pydwls @ git+https://github.com/LCGaoZzz/pydwls.git@v0.1.0"]
+dependencies = ["numpy>=1.23", "pandas>=1.5", "scipy>=1.9", "anndata>=0.9", "pydwls @ git+https://github.com/LCGaoZzz/pydwls.git@v0.1.0"]
 
 [project.urls]
 Upstream = "https://github.com/rnacentre/SCCAF-D"

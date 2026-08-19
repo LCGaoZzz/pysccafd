@@ -21,8 +21,18 @@ comes from [pydwls](https://github.com/LCGaoZzz/pydwls).
 ```bash
 pip install git+https://github.com/LCGaoZzz/pydwls.git
 pip install git+https://github.com/LCGaoZzz/pysccafd.git
-# needs the pinned stack: scanpy 1.9.x, harmonypy 0.0.9, SCCAF 0.0.10, anndata
 ```
+
+The assessment stage additionally needs the pinned stack that the original
+SCCAF-D chain used through reticulate:
+
+```bash
+pip install "scanpy>=1.9,<1.10" harmonypy==0.0.9 anndata
+pip install --no-deps SCCAF==0.0.10
+```
+
+(`SCCAF` 0.0.10's PyPI metadata pins `scanpy==1.4.6`, which is stale — the
+tested combination is SCCAF 0.0.10 with scanpy 1.9.1, hence `--no-deps`.)
 
 ## Usage
 
